@@ -1,4 +1,5 @@
-import './style.scss';
 import './bootstrap/bootstrap.js';
+import './style.scss';
+import application from './urlForm.js';
 
-console.log('Hello World!');
+application();
