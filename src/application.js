@@ -57,8 +57,8 @@ export default () => {
 
   const state = {
     form: {
-      process: '',
-      errors: '',
+      process: 'filling',
+      errors: 'waiting',
     },
     links: [],
     feeds: [],
