@@ -87,7 +87,7 @@ const renderPosts = (elements, i18n, value, state) => {
   posts.append(header, postsList);
 };
 
-const renderErrorss = (elements, i18n, value) => {
+const renderErrors = (elements, i18n, value) => {
   if (!value) {
     return;
   }
@@ -169,7 +169,7 @@ export default (elements, i18n, state) => {
         break;
 
       case 'form.errors':
-        renderErrorss(elements, i18n, value);
+        renderErrors(elements, i18n, value);
         break;
 
       case 'feeds':
